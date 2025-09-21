@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.list-transision:hover {
+  transition: all 0.3s linear;
+  padding-left: 30px;
+}
+.sidebarhide {
+  transform: translate(-100%);
+}

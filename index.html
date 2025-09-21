@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>side-bar</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="h-screen bg-[#ebebeb]">
+    <main class="h-[100%] flex justify-between">
+      
+      <div class="sidebarhide transition-all flex flex-col bg-white w-[500px] h-[100%]" id="side-bar">
+        <div class="flex items-center justify-between py-[16px] px-[12px] pr-[22px]">
+          <img src="./Sahand Ghavidel_files/logo.svg" alt="" />
+          <img class="w-[16.5px] h-[24px] cursor-pointer" id="cross" src="./cross.svg" alt="">
+        </div>
+        <ul class=" text-[24px] font-[400]  text-gray-500 cursor-pointer">
+            <li class="list-transision py-[12px] px-[24px] hover:bg-[#f8a5a5]">Home</li>
+            <li class="list-transision py-[12px] px-[24px] hover:bg-[#f8a5a5]">About</li>
+            <li class="list-transision py-[12px] px-[24px] hover:bg-[#f8a5a5]">Contact</li>
+        </ul>
+      </div>
+        <img class="fixed w-[21px] h-[26px] left-[95%] top-[32px] cursor-pointer" id="menu" src="./y.svg" alt="">
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>
